@@ -1,9 +1,9 @@
 ---
 ---
 
-# Saudi-Medical-AI-Lab's Website
+# Saudi Medical AI Lab (SMAIL) for Open Research
 
-An engaging 1-3 sentence description of your lab.
+The Saudi Medical AI Lab (SMAIL) for Open Research is a an open, volunter-driven remote research lab that focuses on conducting translational artifical intelligence research in the medical domain.  
 
 {% include section.html %}
 
@@ -26,26 +26,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  <!-- image="images/photo.jpg" -->
   link="research"
-  title="Our Research"
+  title="Research"
   text=text
 %}
 
-{% capture text %}
+<!-- {% capture text %} -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
 
-{%
+<!-- {%
   include button.html
   link="projects"
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
-%}
+%} -->
 
-{% endcapture %}
+<!-- {% endcapture %}
 
 {%
   include feature.html
@@ -59,9 +59,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
 
-{%
+<!-- {%
   include button.html
   link="team"
   text="Meet our team"
@@ -70,7 +70,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   style="bare"
 %}
 
-{% endcapture %}
+{% endcapture %} -->
 
 {%
   include feature.html

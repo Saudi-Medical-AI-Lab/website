@@ -11,7 +11,7 @@ The Saudi Medical AI Lab (SMAIL) for Open Research is a an open, volunter-driven
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We conduct research at the intersection of AI and healthcare and spans a wide array of subfields, with themes including medical image analysis and generation, health record analysis, drug discovery, genomic analysis, neuroimaging, and many more! 
 
 {%
   include button.html
@@ -26,42 +26,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  <!-- image="images/photo.jpg" -->
   link="research"
   title="Research"
   text=text
 %}
 
-<!-- {% capture text %} -->
-
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
-
-<!-- {%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%} -->
-
-<!-- {% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
+Our team includes research scientist from Saudi and international institutions like King Abdullah International Medical Research Center. We strive to include exceptional Saudi undergradute and gradute students interested in Medical AI research.
 
-<!-- {%
+{%
   include button.html
   link="team"
   text="Meet our team"
@@ -70,7 +44,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   style="bare"
 %}
 
-{% endcapture %} -->
+{% endcapture %}
 
 {%
   include feature.html

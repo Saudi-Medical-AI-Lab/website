@@ -7,16 +7,15 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We conduct research at the intersection of AI and healthcare and spans a wide array of subfields, with themes including medical image analysis and generation, health record analysis, drug discovery, genomic analysis, neuroimaging, and many more! 
 
 {% include section.html %}
 
-## Highlighted
+<!-- ## Highlighted -->
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+<!-- {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}  -->
 
-{% include section.html %}
+{% include section.html %} 
 
 ## All
 

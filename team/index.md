@@ -7,20 +7,18 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our team includes research scientist from Saudi and international institutions like King Abdullah International Medical Research Center. We strive to include exceptional Saudi undergradute and gradute students interested in Medical AI research.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="members" component="portrait" filters="role: pi" %} 
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. -->
 
 {% include section.html %}
 
@@ -32,4 +30,4 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+<!-- {% include grid.html style="square" content=content %} -->

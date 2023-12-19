@@ -51,6 +51,7 @@ for plugin in plugins:
         try:
             data = load_data(file)
             # check if file in correct format
+            print("data:", data)
             if not list_of_dicts(data):
                 raise Exception("File not a list of dicts")
         except Exception as e:

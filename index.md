@@ -5,6 +5,8 @@
 
 The Saudi Medical AI Lab (SMAIL) for Open Research is a an open, volunter-driven remote research lab that focuses on conducting translational artifical intelligence research in the medical domain.  
 
+**Announcement:** We are currently looking for researchers to mentor students as part of the Affiliated Researcher Program. The program will connect researchers (including postdocs, academic, and industry researchers) with high-performing Saudi undergraduate and graduate university students to work on medical AI research. If you are interested, please fill out the following form: [https://forms.gle/q8bGGMMxFzBN9rWn7](https://forms.gle/q8bGGMMxFzBN9rWn7)
+
 {% include section.html %}
 
 ## Highlights
@@ -30,6 +32,23 @@ We conduct research at the intersection of AI and healthcare and spans a wide ar
   title="Research"
   text=text
 %}
+
+<!-- {% capture text %}
+
+{%
+  include button.html
+  link="programs"
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  link="programs"
+  title="Programs"
+  text=text
+%} -->
 
 {% capture text %}
 
